@@ -3,12 +3,12 @@
 
 int main()
 {
-        int numero;//variable para ingresar numero
+    int numero;//variable para ingresar numero
     int contador;//contador para cantidad de datos a ingresar
     int min;//asigna el valor minimo
     int max;//asigna el maximo
     int acumulador=0;//sumatoria de numeros
-    int promedio;//para sacar el promedio de totales
+    float promedio;//para sacar el promedio de totales
 
     for(contador=0;contador<5;contador++)//el contador arranca en 1 y mientras sea menor que 6 (se repite 5 veces)
     {
@@ -37,7 +37,7 @@ int main()
         printf("La Suma de numeros %d.\n",acumulador);//muesto el acumulado
         printf("El numero Maximo fue: %d\n",max);//muestro el max
         printf("El Minimo Ingresado fue: %d\n",min);//muestro el minimo
-        printf("El promedio es de: %d",promedio);//muestro el promedio
+        printf("El promedio es de: %f",promedio);//muestro el promedio
 
     return 0;
 }
